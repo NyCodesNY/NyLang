@@ -1,0 +1,3 @@
+/home/nycodes/NyLang/build/CMakeFiles/nylang.dir
+/home/nycodes/NyLang/build/CMakeFiles/edit_cache.dir
+/home/nycodes/NyLang/build/CMakeFiles/rebuild_cache.dir
