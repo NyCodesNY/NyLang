@@ -6,11 +6,12 @@ NyLang compiles directly to native standalone binaries without relying on extern
 
 ## Features
 
-- **Zero-Dependency Native Compilation:** Generates executable code directly. It writes its own `.o` ELF files for Linux and standalone `.exe` PE files for Windows.
+- **Zero-Dependency Native Compilation:** Generates executable code directly. It writes its own standalone, dynamically-linked ELF64 executables for Linux and PE32+ executables for Windows, without requiring any external tools like GCC or LD.
 - **Cross-Compilation:** You can compile Windows `.exe` files from Linux using the `--target windows` flag.
 - **Static Typing & Type Inference:** Supports strict types (`int`, `string`, `bool`, `void`) and automatic type inference via the `init` keyword (similar to C++ `auto`).
 - **Low-Level Memory Control:** C-style pointers, `&` (address-of), `*` (dereference), and raw pointer arithmetic.
 - **Dynamic Memory Allocation:** Direct access to heap memory via `System.Alloc` and `System.Free`.
+- **Control Flow:** Supports standard `if`/`else` branches, `while` loops, and C-style `for` loops.
 - **SSA-Inspired IR Layer:** Includes a custom Intermediate Representation (NyIR) to enable future optimization passes like constant folding and dead code elimination.
 
 ## Building the Compiler
@@ -36,7 +37,7 @@ Compile a NyLang source file into an executable:
 
 ### Options
 
-- `--target linux`: (Default) Compiles to a Linux ELF64 relocatable object, which is then linked using `gcc`.
+- `--target linux`: (Default) Compiles directly to a standalone, dynamically-linked Linux ELF64 executable.
 - `--target windows`: Compiles directly to a standalone Windows PE32+ executable (`.exe`).
 - `--dump-ir`: Prints the human-readable NyIR representation of the program before machine code generation and exits.
 

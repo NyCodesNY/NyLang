@@ -8,6 +8,7 @@
 #include <sstream>
 #include <cstdlib>
 #include <filesystem>
+#include <sys/stat.h>
 
 namespace fs = std::filesystem;
 
@@ -90,14 +91,14 @@ int main(int argc, char* argv[]) {
         outputName = inputFs.stem().string();
     }
 
-    std::string objPath;
+    std::string outPath;
     if (target == nylang::Target::Windows) {
         if (outputName.find(".exe") == std::string::npos) {
             outputName += ".exe";
         }
-        objPath = outputName; // we write the final exe directly
+        outPath = outputName; 
     } else {
-        objPath = outputName + ".o";
+        outPath = outputName; 
     }
 
     try {
@@ -133,24 +134,12 @@ int main(int argc, char* argv[]) {
                   << (target == nylang::Target::Windows ? "Windows" : "Linux") << "..." << std::endl;
         std::vector<uint8_t> objData = codegen.generate(*program);
 
-        writeBinaryFile(objPath, objData);
-        std::cout << "[NyLang] Wrote " << objPath
-                  << " (" << objData.size() << " bytes)" << std::endl;
-
+        writeBinaryFile(outPath, objData);
         if (target == nylang::Target::Linux) {
-            // ── Step 5: Link with GCC (for libc) ────────────────────────────
-            std::cout << "[NyLang] Linking with GCC..." << std::endl;
-            std::string gccCmd = "gcc " + objPath + " -o " + outputName + " -no-pie";
-            int gccRet = runCommand(gccCmd);
-            if (gccRet != 0) {
-                std::cerr << "[NyLang] ERROR: GCC linking failed with exit code "
-                          << gccRet << std::endl;
-                return 1;
-            }
-
-            // ── Step 6: Clean up intermediate files ─────────────────────────
-            fs::remove(objPath);
+            chmod(outPath.c_str(), 0755);
         }
+        std::cout << "[NyLang] Wrote " << outPath
+                  << " (" << objData.size() << " bytes)" << std::endl;
 
         std::cout << "[NyLang] ✓ Build successful: " << (target == nylang::Target::Windows ? "" : "./") << outputName << std::endl;
         return 0;

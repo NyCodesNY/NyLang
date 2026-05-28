@@ -129,221 +129,221 @@ nylang/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/build
 .PHONY : nylang/fast
 
-src/Assembler.o: src/Assembler.cpp.o
-.PHONY : src/Assembler.o
+src/backend/Assembler.o: src/backend/Assembler.cpp.o
+.PHONY : src/backend/Assembler.o
 
 # target to build an object file
-src/Assembler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Assembler.cpp.o
-.PHONY : src/Assembler.cpp.o
+src/backend/Assembler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o
+.PHONY : src/backend/Assembler.cpp.o
 
-src/Assembler.i: src/Assembler.cpp.i
-.PHONY : src/Assembler.i
+src/backend/Assembler.i: src/backend/Assembler.cpp.i
+.PHONY : src/backend/Assembler.i
 
 # target to preprocess a source file
-src/Assembler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Assembler.cpp.i
-.PHONY : src/Assembler.cpp.i
+src/backend/Assembler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/Assembler.cpp.i
+.PHONY : src/backend/Assembler.cpp.i
 
-src/Assembler.s: src/Assembler.cpp.s
-.PHONY : src/Assembler.s
+src/backend/Assembler.s: src/backend/Assembler.cpp.s
+.PHONY : src/backend/Assembler.s
 
 # target to generate assembly for a file
-src/Assembler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Assembler.cpp.s
-.PHONY : src/Assembler.cpp.s
+src/backend/Assembler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/Assembler.cpp.s
+.PHONY : src/backend/Assembler.cpp.s
 
-src/CodeGen.o: src/CodeGen.cpp.o
-.PHONY : src/CodeGen.o
+src/backend/CodeGen.o: src/backend/CodeGen.cpp.o
+.PHONY : src/backend/CodeGen.o
 
 # target to build an object file
-src/CodeGen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/CodeGen.cpp.o
-.PHONY : src/CodeGen.cpp.o
+src/backend/CodeGen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o
+.PHONY : src/backend/CodeGen.cpp.o
 
-src/CodeGen.i: src/CodeGen.cpp.i
-.PHONY : src/CodeGen.i
+src/backend/CodeGen.i: src/backend/CodeGen.cpp.i
+.PHONY : src/backend/CodeGen.i
 
 # target to preprocess a source file
-src/CodeGen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/CodeGen.cpp.i
-.PHONY : src/CodeGen.cpp.i
+src/backend/CodeGen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.i
+.PHONY : src/backend/CodeGen.cpp.i
 
-src/CodeGen.s: src/CodeGen.cpp.s
-.PHONY : src/CodeGen.s
+src/backend/CodeGen.s: src/backend/CodeGen.cpp.s
+.PHONY : src/backend/CodeGen.s
 
 # target to generate assembly for a file
-src/CodeGen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/CodeGen.cpp.s
-.PHONY : src/CodeGen.cpp.s
+src/backend/CodeGen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.s
+.PHONY : src/backend/CodeGen.cpp.s
 
-src/ElfWriter.o: src/ElfWriter.cpp.o
-.PHONY : src/ElfWriter.o
+src/backend/IRCodeGen.o: src/backend/IRCodeGen.cpp.o
+.PHONY : src/backend/IRCodeGen.o
 
 # target to build an object file
-src/ElfWriter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ElfWriter.cpp.o
-.PHONY : src/ElfWriter.cpp.o
+src/backend/IRCodeGen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o
+.PHONY : src/backend/IRCodeGen.cpp.o
 
-src/ElfWriter.i: src/ElfWriter.cpp.i
-.PHONY : src/ElfWriter.i
+src/backend/IRCodeGen.i: src/backend/IRCodeGen.cpp.i
+.PHONY : src/backend/IRCodeGen.i
 
 # target to preprocess a source file
-src/ElfWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ElfWriter.cpp.i
-.PHONY : src/ElfWriter.cpp.i
+src/backend/IRCodeGen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.i
+.PHONY : src/backend/IRCodeGen.cpp.i
 
-src/ElfWriter.s: src/ElfWriter.cpp.s
-.PHONY : src/ElfWriter.s
+src/backend/IRCodeGen.s: src/backend/IRCodeGen.cpp.s
+.PHONY : src/backend/IRCodeGen.s
 
 # target to generate assembly for a file
-src/ElfWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ElfWriter.cpp.s
-.PHONY : src/ElfWriter.cpp.s
+src/backend/IRCodeGen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.s
+.PHONY : src/backend/IRCodeGen.cpp.s
 
-src/IRCodeGen.o: src/IRCodeGen.cpp.o
-.PHONY : src/IRCodeGen.o
+src/frontend/Lexer.o: src/frontend/Lexer.cpp.o
+.PHONY : src/frontend/Lexer.o
 
 # target to build an object file
-src/IRCodeGen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o
-.PHONY : src/IRCodeGen.cpp.o
+src/frontend/Lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o
+.PHONY : src/frontend/Lexer.cpp.o
 
-src/IRCodeGen.i: src/IRCodeGen.cpp.i
-.PHONY : src/IRCodeGen.i
+src/frontend/Lexer.i: src/frontend/Lexer.cpp.i
+.PHONY : src/frontend/Lexer.i
 
 # target to preprocess a source file
-src/IRCodeGen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRCodeGen.cpp.i
-.PHONY : src/IRCodeGen.cpp.i
+src/frontend/Lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.i
+.PHONY : src/frontend/Lexer.cpp.i
 
-src/IRCodeGen.s: src/IRCodeGen.cpp.s
-.PHONY : src/IRCodeGen.s
+src/frontend/Lexer.s: src/frontend/Lexer.cpp.s
+.PHONY : src/frontend/Lexer.s
 
 # target to generate assembly for a file
-src/IRCodeGen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRCodeGen.cpp.s
-.PHONY : src/IRCodeGen.cpp.s
+src/frontend/Lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.s
+.PHONY : src/frontend/Lexer.cpp.s
 
-src/IRGen.o: src/IRGen.cpp.o
-.PHONY : src/IRGen.o
+src/frontend/Parser.o: src/frontend/Parser.cpp.o
+.PHONY : src/frontend/Parser.o
 
 # target to build an object file
-src/IRGen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRGen.cpp.o
-.PHONY : src/IRGen.cpp.o
+src/frontend/Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o
+.PHONY : src/frontend/Parser.cpp.o
 
-src/IRGen.i: src/IRGen.cpp.i
-.PHONY : src/IRGen.i
+src/frontend/Parser.i: src/frontend/Parser.cpp.i
+.PHONY : src/frontend/Parser.i
 
 # target to preprocess a source file
-src/IRGen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRGen.cpp.i
-.PHONY : src/IRGen.cpp.i
+src/frontend/Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Parser.cpp.i
+.PHONY : src/frontend/Parser.cpp.i
 
-src/IRGen.s: src/IRGen.cpp.s
-.PHONY : src/IRGen.s
+src/frontend/Parser.s: src/frontend/Parser.cpp.s
+.PHONY : src/frontend/Parser.s
 
 # target to generate assembly for a file
-src/IRGen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRGen.cpp.s
-.PHONY : src/IRGen.cpp.s
+src/frontend/Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/frontend/Parser.cpp.s
+.PHONY : src/frontend/Parser.cpp.s
 
-src/IRPrinter.o: src/IRPrinter.cpp.o
-.PHONY : src/IRPrinter.o
+src/ir/IRGen.o: src/ir/IRGen.cpp.o
+.PHONY : src/ir/IRGen.o
 
 # target to build an object file
-src/IRPrinter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRPrinter.cpp.o
-.PHONY : src/IRPrinter.cpp.o
+src/ir/IRGen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o
+.PHONY : src/ir/IRGen.cpp.o
 
-src/IRPrinter.i: src/IRPrinter.cpp.i
-.PHONY : src/IRPrinter.i
+src/ir/IRGen.i: src/ir/IRGen.cpp.i
+.PHONY : src/ir/IRGen.i
 
 # target to preprocess a source file
-src/IRPrinter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRPrinter.cpp.i
-.PHONY : src/IRPrinter.cpp.i
+src/ir/IRGen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRGen.cpp.i
+.PHONY : src/ir/IRGen.cpp.i
 
-src/IRPrinter.s: src/IRPrinter.cpp.s
-.PHONY : src/IRPrinter.s
+src/ir/IRGen.s: src/ir/IRGen.cpp.s
+.PHONY : src/ir/IRGen.s
 
 # target to generate assembly for a file
-src/IRPrinter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/IRPrinter.cpp.s
-.PHONY : src/IRPrinter.cpp.s
+src/ir/IRGen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRGen.cpp.s
+.PHONY : src/ir/IRGen.cpp.s
 
-src/Lexer.o: src/Lexer.cpp.o
-.PHONY : src/Lexer.o
+src/ir/IRPrinter.o: src/ir/IRPrinter.cpp.o
+.PHONY : src/ir/IRPrinter.o
 
 # target to build an object file
-src/Lexer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Lexer.cpp.o
-.PHONY : src/Lexer.cpp.o
+src/ir/IRPrinter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o
+.PHONY : src/ir/IRPrinter.cpp.o
 
-src/Lexer.i: src/Lexer.cpp.i
-.PHONY : src/Lexer.i
+src/ir/IRPrinter.i: src/ir/IRPrinter.cpp.i
+.PHONY : src/ir/IRPrinter.i
 
 # target to preprocess a source file
-src/Lexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Lexer.cpp.i
-.PHONY : src/Lexer.cpp.i
+src/ir/IRPrinter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.i
+.PHONY : src/ir/IRPrinter.cpp.i
 
-src/Lexer.s: src/Lexer.cpp.s
-.PHONY : src/Lexer.s
+src/ir/IRPrinter.s: src/ir/IRPrinter.cpp.s
+.PHONY : src/ir/IRPrinter.s
 
 # target to generate assembly for a file
-src/Lexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Lexer.cpp.s
-.PHONY : src/Lexer.cpp.s
+src/ir/IRPrinter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.s
+.PHONY : src/ir/IRPrinter.cpp.s
 
-src/Parser.o: src/Parser.cpp.o
-.PHONY : src/Parser.o
+src/linker/ElfWriter.o: src/linker/ElfWriter.cpp.o
+.PHONY : src/linker/ElfWriter.o
 
 # target to build an object file
-src/Parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Parser.cpp.o
-.PHONY : src/Parser.cpp.o
+src/linker/ElfWriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o
+.PHONY : src/linker/ElfWriter.cpp.o
 
-src/Parser.i: src/Parser.cpp.i
-.PHONY : src/Parser.i
+src/linker/ElfWriter.i: src/linker/ElfWriter.cpp.i
+.PHONY : src/linker/ElfWriter.i
 
 # target to preprocess a source file
-src/Parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Parser.cpp.i
-.PHONY : src/Parser.cpp.i
+src/linker/ElfWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.i
+.PHONY : src/linker/ElfWriter.cpp.i
 
-src/Parser.s: src/Parser.cpp.s
-.PHONY : src/Parser.s
+src/linker/ElfWriter.s: src/linker/ElfWriter.cpp.s
+.PHONY : src/linker/ElfWriter.s
 
 # target to generate assembly for a file
-src/Parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/Parser.cpp.s
-.PHONY : src/Parser.cpp.s
+src/linker/ElfWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.s
+.PHONY : src/linker/ElfWriter.cpp.s
 
-src/PeWriter.o: src/PeWriter.cpp.o
-.PHONY : src/PeWriter.o
+src/linker/PeWriter.o: src/linker/PeWriter.cpp.o
+.PHONY : src/linker/PeWriter.o
 
 # target to build an object file
-src/PeWriter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/PeWriter.cpp.o
-.PHONY : src/PeWriter.cpp.o
+src/linker/PeWriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o
+.PHONY : src/linker/PeWriter.cpp.o
 
-src/PeWriter.i: src/PeWriter.cpp.i
-.PHONY : src/PeWriter.i
+src/linker/PeWriter.i: src/linker/PeWriter.cpp.i
+.PHONY : src/linker/PeWriter.i
 
 # target to preprocess a source file
-src/PeWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/PeWriter.cpp.i
-.PHONY : src/PeWriter.cpp.i
+src/linker/PeWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.i
+.PHONY : src/linker/PeWriter.cpp.i
 
-src/PeWriter.s: src/PeWriter.cpp.s
-.PHONY : src/PeWriter.s
+src/linker/PeWriter.s: src/linker/PeWriter.cpp.s
+.PHONY : src/linker/PeWriter.s
 
 # target to generate assembly for a file
-src/PeWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/PeWriter.cpp.s
-.PHONY : src/PeWriter.cpp.s
+src/linker/PeWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nylang.dir/build.make CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.s
+.PHONY : src/linker/PeWriter.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -378,33 +378,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nylang"
-	@echo "... src/Assembler.o"
-	@echo "... src/Assembler.i"
-	@echo "... src/Assembler.s"
-	@echo "... src/CodeGen.o"
-	@echo "... src/CodeGen.i"
-	@echo "... src/CodeGen.s"
-	@echo "... src/ElfWriter.o"
-	@echo "... src/ElfWriter.i"
-	@echo "... src/ElfWriter.s"
-	@echo "... src/IRCodeGen.o"
-	@echo "... src/IRCodeGen.i"
-	@echo "... src/IRCodeGen.s"
-	@echo "... src/IRGen.o"
-	@echo "... src/IRGen.i"
-	@echo "... src/IRGen.s"
-	@echo "... src/IRPrinter.o"
-	@echo "... src/IRPrinter.i"
-	@echo "... src/IRPrinter.s"
-	@echo "... src/Lexer.o"
-	@echo "... src/Lexer.i"
-	@echo "... src/Lexer.s"
-	@echo "... src/Parser.o"
-	@echo "... src/Parser.i"
-	@echo "... src/Parser.s"
-	@echo "... src/PeWriter.o"
-	@echo "... src/PeWriter.i"
-	@echo "... src/PeWriter.s"
+	@echo "... src/backend/Assembler.o"
+	@echo "... src/backend/Assembler.i"
+	@echo "... src/backend/Assembler.s"
+	@echo "... src/backend/CodeGen.o"
+	@echo "... src/backend/CodeGen.i"
+	@echo "... src/backend/CodeGen.s"
+	@echo "... src/backend/IRCodeGen.o"
+	@echo "... src/backend/IRCodeGen.i"
+	@echo "... src/backend/IRCodeGen.s"
+	@echo "... src/frontend/Lexer.o"
+	@echo "... src/frontend/Lexer.i"
+	@echo "... src/frontend/Lexer.s"
+	@echo "... src/frontend/Parser.o"
+	@echo "... src/frontend/Parser.i"
+	@echo "... src/frontend/Parser.s"
+	@echo "... src/ir/IRGen.o"
+	@echo "... src/ir/IRGen.i"
+	@echo "... src/ir/IRGen.s"
+	@echo "... src/ir/IRPrinter.o"
+	@echo "... src/ir/IRPrinter.i"
+	@echo "... src/ir/IRPrinter.s"
+	@echo "... src/linker/ElfWriter.o"
+	@echo "... src/linker/ElfWriter.i"
+	@echo "... src/linker/ElfWriter.s"
+	@echo "... src/linker/PeWriter.o"
+	@echo "... src/linker/PeWriter.i"
+	@echo "... src/linker/PeWriter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

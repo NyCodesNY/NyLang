@@ -6,15 +6,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(nylang
     src/main.cpp
-    src/Lexer.cpp
-    src/Parser.cpp
-    src/CodeGen.cpp
-    src/IRGen.cpp
-    src/IRPrinter.cpp
-    src/IRCodeGen.cpp
-    src/Assembler.cpp
-    src/ElfWriter.cpp
-    src/PeWriter.cpp
+    src/frontend/Lexer.cpp
+    src/frontend/Parser.cpp
+    src/backend/CodeGen.cpp
+    src/ir/IRGen.cpp
+    src/ir/IRPrinter.cpp
+    src/backend/IRCodeGen.cpp
+    src/backend/Assembler.cpp
+    src/linker/ElfWriter.cpp
+    src/linker/PeWriter.cpp
 )
 
-target_include_directories(nylang PRIVATE src)
+target_include_directories(nylang PRIVATE 
+    src
+    src/frontend
+    src/ir
+    src/backend
+    src/linker
+)

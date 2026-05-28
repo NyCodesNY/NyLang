@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nycodes/NyLang/src
+CXX_INCLUDES = -I/home/nycodes/NyLang/src -I/home/nycodes/NyLang/src/frontend -I/home/nycodes/NyLang/src/ir -I/home/nycodes/NyLang/src/backend -I/home/nycodes/NyLang/src/linker
 
 CXX_FLAGS = -std=gnu++17
 

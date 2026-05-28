@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nycodes/NyLang/src/Assembler.cpp" "CMakeFiles/nylang.dir/src/Assembler.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/Assembler.cpp.o.d"
-  "/home/nycodes/NyLang/src/CodeGen.cpp" "CMakeFiles/nylang.dir/src/CodeGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/CodeGen.cpp.o.d"
-  "/home/nycodes/NyLang/src/ElfWriter.cpp" "CMakeFiles/nylang.dir/src/ElfWriter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/ElfWriter.cpp.o.d"
-  "/home/nycodes/NyLang/src/IRCodeGen.cpp" "CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o.d"
-  "/home/nycodes/NyLang/src/IRGen.cpp" "CMakeFiles/nylang.dir/src/IRGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/IRGen.cpp.o.d"
-  "/home/nycodes/NyLang/src/IRPrinter.cpp" "CMakeFiles/nylang.dir/src/IRPrinter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/IRPrinter.cpp.o.d"
-  "/home/nycodes/NyLang/src/Lexer.cpp" "CMakeFiles/nylang.dir/src/Lexer.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/Lexer.cpp.o.d"
-  "/home/nycodes/NyLang/src/Parser.cpp" "CMakeFiles/nylang.dir/src/Parser.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/Parser.cpp.o.d"
-  "/home/nycodes/NyLang/src/PeWriter.cpp" "CMakeFiles/nylang.dir/src/PeWriter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/PeWriter.cpp.o.d"
+  "/home/nycodes/NyLang/src/backend/Assembler.cpp" "CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o.d"
+  "/home/nycodes/NyLang/src/backend/CodeGen.cpp" "CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o.d"
+  "/home/nycodes/NyLang/src/backend/IRCodeGen.cpp" "CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o.d"
+  "/home/nycodes/NyLang/src/frontend/Lexer.cpp" "CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o.d"
+  "/home/nycodes/NyLang/src/frontend/Parser.cpp" "CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o.d"
+  "/home/nycodes/NyLang/src/ir/IRGen.cpp" "CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o.d"
+  "/home/nycodes/NyLang/src/ir/IRPrinter.cpp" "CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o.d"
+  "/home/nycodes/NyLang/src/linker/ElfWriter.cpp" "CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o.d"
+  "/home/nycodes/NyLang/src/linker/PeWriter.cpp" "CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o.d"
   "/home/nycodes/NyLang/src/main.cpp" "CMakeFiles/nylang.dir/src/main.cpp.o" "gcc" "CMakeFiles/nylang.dir/src/main.cpp.o.d"
   )
 

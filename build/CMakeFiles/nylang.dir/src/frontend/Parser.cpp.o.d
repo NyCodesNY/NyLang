@@ -1,5 +1,6 @@
-CMakeFiles/nylang.dir/src/main.cpp.o: /home/nycodes/NyLang/src/main.cpp \
- /usr/include/stdc-predef.h /home/nycodes/NyLang/src/frontend/Lexer.h \
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o: \
+ /home/nycodes/NyLang/src/frontend/Parser.cpp /usr/include/stdc-predef.h \
+ /home/nycodes/NyLang/src/frontend/Parser.h \
  /home/nycodes/NyLang/src/frontend/Token.h /usr/include/c++/16/string \
  /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
@@ -135,13 +136,12 @@ CMakeFiles/nylang.dir/src/main.cpp.o: /home/nycodes/NyLang/src/main.cpp \
  /usr/include/c++/16/bits/locale_facets.tcc \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
- /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/ostream.tcc \
+ /home/nycodes/NyLang/src/frontend/AST.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
- /usr/include/c++/16/bits/vector.tcc \
- /home/nycodes/NyLang/src/frontend/Parser.h \
- /home/nycodes/NyLang/src/frontend/AST.h /usr/include/c++/16/memory \
+ /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/memory \
  /usr/include/c++/16/bits/stl_tempbuf.h \
  /usr/include/c++/16/bits/stl_raw_storage_iter.h \
  /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \
@@ -156,33 +156,6 @@ CMakeFiles/nylang.dir/src/main.cpp.o: /home/nycodes/NyLang/src/main.cpp \
  /usr/include/c++/16/bits/atomic_lockfree_defines.h \
  /usr/include/c++/16/backward/auto_ptr.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
- /usr/include/c++/16/pstl/execution_defs.h \
- /home/nycodes/NyLang/src/backend/CodeGen.h \
- /home/nycodes/NyLang/src/ir/IR.h /usr/include/c++/16/cstdint \
- /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
- /home/nycodes/NyLang/src/backend/Target.h \
- /home/nycodes/NyLang/src/ir/IRPrinter.h /usr/include/c++/16/iostream \
+ /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/sstream \
  /usr/include/c++/16/istream /usr/include/c++/16/bits/istream.tcc \
- /usr/include/c++/16/fstream /usr/include/c++/16/bits/codecvt.h \
- /usr/include/c++/16/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/sstream \
- /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/filesystem \
- /usr/include/c++/16/bits/fs_fwd.h /usr/include/c++/16/bits/chrono.h \
- /usr/include/c++/16/ratio /usr/include/c++/16/limits \
- /usr/include/c++/16/ctime /usr/include/c++/16/bits/parse_numbers.h \
- /usr/include/c++/16/bits/fs_path.h /usr/include/c++/16/locale \
- /usr/include/c++/16/bits/locale_facets_nonio.h \
- /usr/include/c++/16/x86_64-redhat-linux/bits/time_members.h \
- /usr/include/c++/16/x86_64-redhat-linux/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/16/bits/locale_facets_nonio.tcc \
- /usr/include/c++/16/bits/locale_conv.h /usr/include/c++/16/iomanip \
- /usr/include/c++/16/bits/quoted_string.h /usr/include/c++/16/codecvt \
- /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
- /usr/include/linux/stat.h /usr/include/bits/statx-generic.h \
- /usr/include/bits/types/struct_statx_timestamp.h \
- /usr/include/bits/types/struct_statx.h
+ /usr/include/c++/16/bits/sstream.tcc

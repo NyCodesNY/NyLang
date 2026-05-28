@@ -86,158 +86,158 @@ CMakeFiles/nylang.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/main.cpp -o CMakeFiles/nylang.dir/src/main.cpp.s
 
-CMakeFiles/nylang.dir/src/Lexer.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/Lexer.cpp.o: /home/nycodes/NyLang/src/Lexer.cpp
-CMakeFiles/nylang.dir/src/Lexer.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nylang.dir/src/Lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/Lexer.cpp.o -MF CMakeFiles/nylang.dir/src/Lexer.cpp.o.d -o CMakeFiles/nylang.dir/src/Lexer.cpp.o -c /home/nycodes/NyLang/src/Lexer.cpp
+CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o: /home/nycodes/NyLang/src/frontend/Lexer.cpp
+CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o -MF CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o.d -o CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o -c /home/nycodes/NyLang/src/frontend/Lexer.cpp
 
-CMakeFiles/nylang.dir/src/Lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/Lexer.cpp > CMakeFiles/nylang.dir/src/Lexer.cpp.i
+CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/frontend/Lexer.cpp > CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.i
 
-CMakeFiles/nylang.dir/src/Lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/Lexer.cpp -o CMakeFiles/nylang.dir/src/Lexer.cpp.s
+CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/frontend/Lexer.cpp -o CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.s
 
-CMakeFiles/nylang.dir/src/Parser.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/Parser.cpp.o: /home/nycodes/NyLang/src/Parser.cpp
-CMakeFiles/nylang.dir/src/Parser.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nylang.dir/src/Parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/Parser.cpp.o -MF CMakeFiles/nylang.dir/src/Parser.cpp.o.d -o CMakeFiles/nylang.dir/src/Parser.cpp.o -c /home/nycodes/NyLang/src/Parser.cpp
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o: /home/nycodes/NyLang/src/frontend/Parser.cpp
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o -MF CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o.d -o CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o -c /home/nycodes/NyLang/src/frontend/Parser.cpp
 
-CMakeFiles/nylang.dir/src/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/Parser.cpp > CMakeFiles/nylang.dir/src/Parser.cpp.i
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/frontend/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/frontend/Parser.cpp > CMakeFiles/nylang.dir/src/frontend/Parser.cpp.i
 
-CMakeFiles/nylang.dir/src/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/Parser.cpp -o CMakeFiles/nylang.dir/src/Parser.cpp.s
+CMakeFiles/nylang.dir/src/frontend/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/frontend/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/frontend/Parser.cpp -o CMakeFiles/nylang.dir/src/frontend/Parser.cpp.s
 
-CMakeFiles/nylang.dir/src/CodeGen.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/CodeGen.cpp.o: /home/nycodes/NyLang/src/CodeGen.cpp
-CMakeFiles/nylang.dir/src/CodeGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nylang.dir/src/CodeGen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/CodeGen.cpp.o -MF CMakeFiles/nylang.dir/src/CodeGen.cpp.o.d -o CMakeFiles/nylang.dir/src/CodeGen.cpp.o -c /home/nycodes/NyLang/src/CodeGen.cpp
+CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o: /home/nycodes/NyLang/src/backend/CodeGen.cpp
+CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o -MF CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o.d -o CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o -c /home/nycodes/NyLang/src/backend/CodeGen.cpp
 
-CMakeFiles/nylang.dir/src/CodeGen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/CodeGen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/CodeGen.cpp > CMakeFiles/nylang.dir/src/CodeGen.cpp.i
+CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/backend/CodeGen.cpp > CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.i
 
-CMakeFiles/nylang.dir/src/CodeGen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/CodeGen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/CodeGen.cpp -o CMakeFiles/nylang.dir/src/CodeGen.cpp.s
+CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/backend/CodeGen.cpp -o CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.s
 
-CMakeFiles/nylang.dir/src/IRGen.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/IRGen.cpp.o: /home/nycodes/NyLang/src/IRGen.cpp
-CMakeFiles/nylang.dir/src/IRGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nylang.dir/src/IRGen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/IRGen.cpp.o -MF CMakeFiles/nylang.dir/src/IRGen.cpp.o.d -o CMakeFiles/nylang.dir/src/IRGen.cpp.o -c /home/nycodes/NyLang/src/IRGen.cpp
+CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o: /home/nycodes/NyLang/src/ir/IRGen.cpp
+CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o -MF CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o.d -o CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o -c /home/nycodes/NyLang/src/ir/IRGen.cpp
 
-CMakeFiles/nylang.dir/src/IRGen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/IRGen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/IRGen.cpp > CMakeFiles/nylang.dir/src/IRGen.cpp.i
+CMakeFiles/nylang.dir/src/ir/IRGen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/ir/IRGen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/ir/IRGen.cpp > CMakeFiles/nylang.dir/src/ir/IRGen.cpp.i
 
-CMakeFiles/nylang.dir/src/IRGen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/IRGen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/IRGen.cpp -o CMakeFiles/nylang.dir/src/IRGen.cpp.s
+CMakeFiles/nylang.dir/src/ir/IRGen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/ir/IRGen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/ir/IRGen.cpp -o CMakeFiles/nylang.dir/src/ir/IRGen.cpp.s
 
-CMakeFiles/nylang.dir/src/IRPrinter.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/IRPrinter.cpp.o: /home/nycodes/NyLang/src/IRPrinter.cpp
-CMakeFiles/nylang.dir/src/IRPrinter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nylang.dir/src/IRPrinter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/IRPrinter.cpp.o -MF CMakeFiles/nylang.dir/src/IRPrinter.cpp.o.d -o CMakeFiles/nylang.dir/src/IRPrinter.cpp.o -c /home/nycodes/NyLang/src/IRPrinter.cpp
+CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o: /home/nycodes/NyLang/src/ir/IRPrinter.cpp
+CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o -MF CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o.d -o CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o -c /home/nycodes/NyLang/src/ir/IRPrinter.cpp
 
-CMakeFiles/nylang.dir/src/IRPrinter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/IRPrinter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/IRPrinter.cpp > CMakeFiles/nylang.dir/src/IRPrinter.cpp.i
+CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/ir/IRPrinter.cpp > CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.i
 
-CMakeFiles/nylang.dir/src/IRPrinter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/IRPrinter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/IRPrinter.cpp -o CMakeFiles/nylang.dir/src/IRPrinter.cpp.s
+CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/ir/IRPrinter.cpp -o CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.s
 
-CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o: /home/nycodes/NyLang/src/IRCodeGen.cpp
-CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o -MF CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o.d -o CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o -c /home/nycodes/NyLang/src/IRCodeGen.cpp
+CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o: /home/nycodes/NyLang/src/backend/IRCodeGen.cpp
+CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o -MF CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o.d -o CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o -c /home/nycodes/NyLang/src/backend/IRCodeGen.cpp
 
-CMakeFiles/nylang.dir/src/IRCodeGen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/IRCodeGen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/IRCodeGen.cpp > CMakeFiles/nylang.dir/src/IRCodeGen.cpp.i
+CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/backend/IRCodeGen.cpp > CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.i
 
-CMakeFiles/nylang.dir/src/IRCodeGen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/IRCodeGen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/IRCodeGen.cpp -o CMakeFiles/nylang.dir/src/IRCodeGen.cpp.s
+CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/backend/IRCodeGen.cpp -o CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.s
 
-CMakeFiles/nylang.dir/src/Assembler.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/Assembler.cpp.o: /home/nycodes/NyLang/src/Assembler.cpp
-CMakeFiles/nylang.dir/src/Assembler.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nylang.dir/src/Assembler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/Assembler.cpp.o -MF CMakeFiles/nylang.dir/src/Assembler.cpp.o.d -o CMakeFiles/nylang.dir/src/Assembler.cpp.o -c /home/nycodes/NyLang/src/Assembler.cpp
+CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o: /home/nycodes/NyLang/src/backend/Assembler.cpp
+CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o -MF CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o.d -o CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o -c /home/nycodes/NyLang/src/backend/Assembler.cpp
 
-CMakeFiles/nylang.dir/src/Assembler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/Assembler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/Assembler.cpp > CMakeFiles/nylang.dir/src/Assembler.cpp.i
+CMakeFiles/nylang.dir/src/backend/Assembler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/backend/Assembler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/backend/Assembler.cpp > CMakeFiles/nylang.dir/src/backend/Assembler.cpp.i
 
-CMakeFiles/nylang.dir/src/Assembler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/Assembler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/Assembler.cpp -o CMakeFiles/nylang.dir/src/Assembler.cpp.s
+CMakeFiles/nylang.dir/src/backend/Assembler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/backend/Assembler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/backend/Assembler.cpp -o CMakeFiles/nylang.dir/src/backend/Assembler.cpp.s
 
-CMakeFiles/nylang.dir/src/ElfWriter.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/ElfWriter.cpp.o: /home/nycodes/NyLang/src/ElfWriter.cpp
-CMakeFiles/nylang.dir/src/ElfWriter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nylang.dir/src/ElfWriter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/ElfWriter.cpp.o -MF CMakeFiles/nylang.dir/src/ElfWriter.cpp.o.d -o CMakeFiles/nylang.dir/src/ElfWriter.cpp.o -c /home/nycodes/NyLang/src/ElfWriter.cpp
+CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o: /home/nycodes/NyLang/src/linker/ElfWriter.cpp
+CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o -MF CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o.d -o CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o -c /home/nycodes/NyLang/src/linker/ElfWriter.cpp
 
-CMakeFiles/nylang.dir/src/ElfWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/ElfWriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/ElfWriter.cpp > CMakeFiles/nylang.dir/src/ElfWriter.cpp.i
+CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/linker/ElfWriter.cpp > CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.i
 
-CMakeFiles/nylang.dir/src/ElfWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/ElfWriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/ElfWriter.cpp -o CMakeFiles/nylang.dir/src/ElfWriter.cpp.s
+CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/linker/ElfWriter.cpp -o CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.s
 
-CMakeFiles/nylang.dir/src/PeWriter.cpp.o: CMakeFiles/nylang.dir/flags.make
-CMakeFiles/nylang.dir/src/PeWriter.cpp.o: /home/nycodes/NyLang/src/PeWriter.cpp
-CMakeFiles/nylang.dir/src/PeWriter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nylang.dir/src/PeWriter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/PeWriter.cpp.o -MF CMakeFiles/nylang.dir/src/PeWriter.cpp.o.d -o CMakeFiles/nylang.dir/src/PeWriter.cpp.o -c /home/nycodes/NyLang/src/PeWriter.cpp
+CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o: CMakeFiles/nylang.dir/flags.make
+CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o: /home/nycodes/NyLang/src/linker/PeWriter.cpp
+CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o: CMakeFiles/nylang.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o -MF CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o.d -o CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o -c /home/nycodes/NyLang/src/linker/PeWriter.cpp
 
-CMakeFiles/nylang.dir/src/PeWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/PeWriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/PeWriter.cpp > CMakeFiles/nylang.dir/src/PeWriter.cpp.i
+CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nycodes/NyLang/src/linker/PeWriter.cpp > CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.i
 
-CMakeFiles/nylang.dir/src/PeWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/PeWriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/PeWriter.cpp -o CMakeFiles/nylang.dir/src/PeWriter.cpp.s
+CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nycodes/NyLang/src/linker/PeWriter.cpp -o CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.s
 
 # Object files for target nylang
 nylang_OBJECTS = \
 "CMakeFiles/nylang.dir/src/main.cpp.o" \
-"CMakeFiles/nylang.dir/src/Lexer.cpp.o" \
-"CMakeFiles/nylang.dir/src/Parser.cpp.o" \
-"CMakeFiles/nylang.dir/src/CodeGen.cpp.o" \
-"CMakeFiles/nylang.dir/src/IRGen.cpp.o" \
-"CMakeFiles/nylang.dir/src/IRPrinter.cpp.o" \
-"CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o" \
-"CMakeFiles/nylang.dir/src/Assembler.cpp.o" \
-"CMakeFiles/nylang.dir/src/ElfWriter.cpp.o" \
-"CMakeFiles/nylang.dir/src/PeWriter.cpp.o"
+"CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o" \
+"CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o" \
+"CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o" \
+"CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o" \
+"CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o" \
+"CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o" \
+"CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o" \
+"CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o" \
+"CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o"
 
 # External object files for target nylang
 nylang_EXTERNAL_OBJECTS =
 
 nylang: CMakeFiles/nylang.dir/src/main.cpp.o
-nylang: CMakeFiles/nylang.dir/src/Lexer.cpp.o
-nylang: CMakeFiles/nylang.dir/src/Parser.cpp.o
-nylang: CMakeFiles/nylang.dir/src/CodeGen.cpp.o
-nylang: CMakeFiles/nylang.dir/src/IRGen.cpp.o
-nylang: CMakeFiles/nylang.dir/src/IRPrinter.cpp.o
-nylang: CMakeFiles/nylang.dir/src/IRCodeGen.cpp.o
-nylang: CMakeFiles/nylang.dir/src/Assembler.cpp.o
-nylang: CMakeFiles/nylang.dir/src/ElfWriter.cpp.o
-nylang: CMakeFiles/nylang.dir/src/PeWriter.cpp.o
+nylang: CMakeFiles/nylang.dir/src/frontend/Lexer.cpp.o
+nylang: CMakeFiles/nylang.dir/src/frontend/Parser.cpp.o
+nylang: CMakeFiles/nylang.dir/src/backend/CodeGen.cpp.o
+nylang: CMakeFiles/nylang.dir/src/ir/IRGen.cpp.o
+nylang: CMakeFiles/nylang.dir/src/ir/IRPrinter.cpp.o
+nylang: CMakeFiles/nylang.dir/src/backend/IRCodeGen.cpp.o
+nylang: CMakeFiles/nylang.dir/src/backend/Assembler.cpp.o
+nylang: CMakeFiles/nylang.dir/src/linker/ElfWriter.cpp.o
+nylang: CMakeFiles/nylang.dir/src/linker/PeWriter.cpp.o
 nylang: CMakeFiles/nylang.dir/build.make
 nylang: CMakeFiles/nylang.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nycodes/NyLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable nylang"
